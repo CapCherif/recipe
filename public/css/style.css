@@ -1,0 +1,252 @@
+body{
+    background-color: rgb(241, 245, 249);
+    margin: 0;
+    font-family:  sans-serif !important;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    z-index: 10;
+}
+#links a {
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(206, 206, 206);
+}
+#links a:hover{
+    transition: 0.2s;
+    color: rgb(255, 145, 0);
+}
+#burger{
+    width: 30px;
+    display: none;
+    cursor: pointer;
+}
+#burger div{
+    height: 5px;
+    background-color: rgb(149, 149, 149);
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+#logo a{
+   text-decoration: none;
+   color: orange;
+   font-size: 50px;
+}
+#vertnav{
+    position: fixed;
+    top: 80px;
+    padding-top: 10px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    z-index: 10;
+    display: none;
+}
+#vertnav a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    color: rgb(199, 199, 199);
+    padding: 15px 0px;
+    text-align: center;
+    /* padding: 5px 0px; */
+}
+#vertnav a:hover {
+    color: rgb(255, 161, 54);
+}
+
+
+/* banner */
+#banner{
+    
+    padding: 100px 10px;
+    justify-content: space-around !important;
+    height: 500px;
+    /* text-align: center; */
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#banner h4{
+    font-size: 60px;
+    padding: 0px;
+    color: rgb(3, 64, 129);
+    /* background-color: rgb(0, 157, 255); */
+    margin: 0;
+}
+#banner div{
+    max-width: 500px;
+    /* min-width: 350px; */
+    color: rgb(4, 28, 69);
+    margin: 50px 100px;
+    /* background-color: aqua; */
+}
+
+
+#banner img{
+    width: 300px;
+    height: auto;
+}
+
+#meal img{
+    width: 150px;
+    height: auto;
+
+}
+#meal {
+    text-align: center;
+    padding-top: 150px;
+}
+#meal .r{
+    max-width: 600px;
+    margin:auto
+}
+#meal textarea{
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+#meal button{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.meal {
+    margin: 5px 0px;
+}
+.meal .h3{
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.meal .h3:hover{
+    background-color: rgb(225, 224, 224);
+}
+.meal .detail{
+    border: 1px solid gray;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    padding: 10px;
+    display: none;
+}
+.empty{
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+#form_auth{
+    max-width: 450px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 3px;
+    margin:50px auto;
+    padding:20px;
+    background-color: white;
+}
+#form_auth input{
+    padding:5px;
+    width: 230px;
+    display: block;
+    margin: 10px 0px;
+}
+.err{
+    padding: 8px 0px;
+    background-color: rgb(252, 214, 214);
+    color: rgb(86, 5, 5);
+    text-align: center;
+    display: none;
+}
+.success, .succes{
+    padding: 8px 0px;
+    background-color: rgb(238, 252, 214);
+    color: rgb(3, 53, 16);
+    text-align: center;
+    display: none;
+}
+/* content */
+.content{
+    max-width: 840px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 80px auto 50px;
+    /* background-color: lightblue; */
+    /* background-image: linear-gradient(to left,rgb(255, 157, 0), rgb(255, 153, 0)); */
+}
+#listing{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid rgb(223, 222, 222);
+    margin: 20px auto;
+}
+#manage{
+    margin-top: 100px;
+    display: none;
+}
+.add{
+    margin: 20px auto;
+}
+.fa-trash{
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+#manage input, #manage textarea{
+    width: 250px;
+    padding: 5px;
+    border: 1px solid gray;
+    display: block;
+    margin:10px 0px;
+}
+
+footer{
+    margin-top: 200px;
+    padding: 30px;
+    background-color: rgb(62, 62, 62);
+}
+footer a{
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+}
+
+.current{
+    color: rgb(210, 103, 16) !important;
+}
+
+
+form button{
+    border: none;
+    padding: 8px 12px;
+    color:white;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(16, 136, 205);
+    text-align: center;
+}
+
+

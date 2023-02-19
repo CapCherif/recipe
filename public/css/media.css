@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 800px) {
+    #links{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+    }
+
+
+    #banner img{
+        width: 300px;
+        height: auto;
+        margin-top: 30px ;
+    }
+    
+    .champ{
+        margin: 10px auto;
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        padding: 5px 0px !important;
+    }
+    .textarea{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    textarea{
+        padding: 5px 0px;
+
+    }
+    .reverse{
+        flex-direction: column-reverse ;
+    }
+
+    #banner div{
+        margin: 30px;
+    }
+
+    #banner img{
+        width: 200px;
+        height: auto;
+    }
+}
